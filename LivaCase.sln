@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36212.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{6BF21E9D-D342-452A-9553-75E6527FBBC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LivaCase.Core", "Libraries\LivaCase.Core\LivaCase.Core.csproj", "{874BB522-93F2-4CE4-8B0D-7C04FD2DC61F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LivaCase.Data", "Libraries\LivaCase.Data\LivaCase.Data.csproj", "{DB996E2F-4F6C-42EC-A848-8530A3BECD68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LivaCase.Services", "Libraries\LivaCase.Services\LivaCase.Services.csproj", "{1512A4AA-8F46-493A-85E7-A603CC6442C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LivaCase.Web.API", "Presentation\LivaCase.Web.API\LivaCase.Web.API.csproj", "{A528CED0-CF0F-4105-B999-0FCA095AB127}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{874BB522-93F2-4CE4-8B0D-7C04FD2DC61F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{874BB522-93F2-4CE4-8B0D-7C04FD2DC61F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{874BB522-93F2-4CE4-8B0D-7C04FD2DC61F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{874BB522-93F2-4CE4-8B0D-7C04FD2DC61F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB996E2F-4F6C-42EC-A848-8530A3BECD68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB996E2F-4F6C-42EC-A848-8530A3BECD68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB996E2F-4F6C-42EC-A848-8530A3BECD68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB996E2F-4F6C-42EC-A848-8530A3BECD68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1512A4AA-8F46-493A-85E7-A603CC6442C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1512A4AA-8F46-493A-85E7-A603CC6442C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1512A4AA-8F46-493A-85E7-A603CC6442C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1512A4AA-8F46-493A-85E7-A603CC6442C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A528CED0-CF0F-4105-B999-0FCA095AB127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A528CED0-CF0F-4105-B999-0FCA095AB127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A528CED0-CF0F-4105-B999-0FCA095AB127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A528CED0-CF0F-4105-B999-0FCA095AB127}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{874BB522-93F2-4CE4-8B0D-7C04FD2DC61F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{DB996E2F-4F6C-42EC-A848-8530A3BECD68} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{1512A4AA-8F46-493A-85E7-A603CC6442C1} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{A528CED0-CF0F-4105-B999-0FCA095AB127} = {6BF21E9D-D342-452A-9553-75E6527FBBC4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA98E368-4C82-45DF-B253-5DBBDF2FCF75}
+	EndGlobalSection
+EndGlobal
